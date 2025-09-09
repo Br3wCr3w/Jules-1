@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="grid-container"></div>
+    <div>
+        <label for="map-upload">Upload a new map:</label>
+        <input type="file" id="map-upload" accept="image/*">
+    </div>
+    <div id="map-container">
+        <img id="background-map" src="https://storage.googleapis.com/brewcrew-storage-bucket/2025-09-07-04-21-08.webp" alt="TTRPG Map">
+        <div id="grid-container"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
